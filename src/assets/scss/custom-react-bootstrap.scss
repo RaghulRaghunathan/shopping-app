@@ -1,0 +1,17 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.btn-success{
+    background-color: #78BE20 !important;
+    border-color: #78BE20 !important;
+}
+
+.btn-outline-success{
+    color: #78BE20;
+    border-color: #78BE20;
+
+    &:hover,
+    &:focus {
+        color: #ffffff;
+        background: #78BE20;
+    }
+}

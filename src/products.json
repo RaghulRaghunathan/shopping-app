@@ -1,0 +1,149 @@
+{
+    "products": [{
+        "id": "000",
+        "name": "desks",
+        "displayName": "DESKS",
+        "list": [{
+            "id": "000001",
+            "name": "Aerizona Wood Portable Laptop Table",
+            "rating": 3.2,
+            "ratingCount": 17,
+            "type": [{
+                "id": "000001001",
+                "colorLabel": "Blue",
+                "colorCode": "#a7d6e8",
+                "price": 999.00,
+                "offer": 10
+            },{
+                "id": "000001002",
+                "colorLabel": "Pink",
+                "colorCode": "#eebcbb",
+                "price": 2799.00,
+                "offer": 11
+            },{
+                "id": "000001003",
+                "colorLabel": "Sandal",
+                "colorCode": "#f1d7ae",
+                "price": 2899.00,
+                "offer": 12
+            },{
+                "id": "000001004",
+                "colorLabel": "Brown",
+                "colorCode": "#5d5448",
+                "price": 2799.00,
+                "offer": 12
+            }]
+        },
+        {
+            "id": "000002",
+            "name": "Studio Engineered Wood Office Table",
+            "rating": 4.5,
+            "ratingCount": 106,
+            "type": [{
+                "id": "000002001",
+                "colorLabel": "White",
+                "colorCode": "#d0c1ae",
+                "price": 3999.00,
+                "offer": 11
+            },{
+                "id": "000002002",
+                "colorLabel": "Sandal",
+                "colorCode": "#baa680",
+                "price": 3799.00,
+                "offer": 12
+            },{
+                "id": "000002003",
+                "colorLabel": "Brown",
+                "colorCode": "#844d2d",
+                "price": 3899.00,
+                "offer": 13
+            }]
+        }]
+    },{
+        "id": "111",
+        "name": "chairs",
+        "displayName": "CHAIRS",
+        "list": [{
+            "id": "111001",
+            "name": "Supreme Office Chair",
+            "rating": 4.1,
+            "ratingCount": 94,
+            "type": [{
+                "id": "111001001",
+                "colorLabel": "Red",
+                "colorCode": "#bb3c46",
+                "price": 1999.00,
+                "offer": 10
+            },{
+                "id": "111001002",
+                "colorLabel": "Blue",
+                "colorCode": "#3455c5",
+                "price": 1799.00,
+                "offer": 12
+            },{
+                "id": "111001003",
+                "colorLabel": "Orange",
+                "colorCode": "#d76741",
+                "price": 1899.00,
+                "offer": 14
+            },{
+                "id": "111001004",
+                "colorLabel": "Brown",
+                "colorCode": "#795347",
+                "price": 1799.00,
+                "offer": 11
+            }]
+        },
+        {
+            "id": "111002",
+            "name": "Supreme Futura",
+            "rating": 4.4,
+            "ratingCount": 67,
+            "type": [{
+                "id": "111002001",
+                "colorLabel": "Green",
+                "colorCode": "#8ba353",
+                "price":2999.00,
+                "offer": 11
+            },{
+                "id": "111002002",
+                "colorLabel": "Silver",
+                "colorCode": "#e2e6ec",
+                "price": 2799.00,
+                "offer": 20
+            },{
+                "id": "111002003",
+                "colorLabel": "Orange",
+                "colorCode": "#fe8338",
+                "price": 2899.00,
+                "offer": 13
+            },{
+                "id": "111002004",
+                "colorLabel": "Brown",
+                "colorCode": "#362a2a",
+                "price": 2799.00,
+                "offer": 12
+            }]
+        }]
+    },{
+        "id": "222",
+        "name": "storage-accessories",
+        "displayName": "STORAGE & ACCESSORIES",
+        "list": []
+    },{
+        "id": "333",
+        "name": "bundles",
+        "displayName": "BUNDLES",
+        "list": []
+    },{
+        "id": "444",
+        "name": "shop-by-space",
+        "displayName": "SHOP BY SPACE",
+        "list": []
+    },{
+        "id": "555",
+        "name": "design-home-office",
+        "displayName": "DESIGN YOUR HOME OFFICE",
+        "list": []
+    }]
+}
