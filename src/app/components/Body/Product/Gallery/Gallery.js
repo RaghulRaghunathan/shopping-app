@@ -72,7 +72,7 @@ const Gallery = () => {
               <Card.Img
                 variant="top"
                 height="200px"
-                src={require(`../../../../../assets/images/${item.id}-1.jpeg`).default}
+                src={require(`../../../../../assets/images/${item.id}-1.jpeg`)}
               />
               <Card.Body>
                 <div className="title">{item.productName}</div>

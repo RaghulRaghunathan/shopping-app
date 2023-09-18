@@ -25,7 +25,7 @@ const AboutUs = () => {
                     </div>
                 </Col>
                 <Col lg={3} md={3} sm={3} className="p-0">
-                    <img src={require('../../../../assets/images/about-us-1.png').default} alt=""
+                    <img src={require('../../../../assets/images/about-us-1.png')} alt=""
                     width="100%" height="600px"/>
                 </Col>
             </Row>
@@ -53,13 +53,13 @@ const AboutUs = () => {
                     </div>
                 </Col>
                 <Col lg={6} md={6} sm={6} className="p-0">
-                    <img src={require('../../../../assets/images/about-us-2.png').default} alt=""
+                    <img src={require('../../../../assets/images/about-us-2.png')} alt=""
                         width="100%" height="600px"/>
                 </Col>
             </Row>
             <Row className="m-0 info-3">
                 <Col lg={6} md={6} sm={6} className="p-0">
-                    <img src={require('../../../../assets/images/about-us-3.png').default} alt=""
+                    <img src={require('../../../../assets/images/about-us-3.png')} alt=""
                             width="100%" height="600px"/>
                 </Col>
                 <Col className="content">
@@ -88,7 +88,7 @@ const AboutUs = () => {
             </Row>
             <Row className="m-0 info-4">
                 <Col lg={6} md={6} sm={6} className="p-0">
-                    <img src={require('../../../../assets/images/about-us-4.png').default} alt=""
+                    <img src={require('../../../../assets/images/about-us-4.png')} alt=""
                             width="100%" height="600px"/>
                 </Col>
                 <Col className="content">

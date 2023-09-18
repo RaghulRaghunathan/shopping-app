@@ -16,7 +16,7 @@ Object.keys(productJson).forEach(item1 => {
 const MenuContainer = () => {
     const [searchText, setSearchText] = useState("");
     const [activeMenu, setActiveMenu] = useState(null);
-    const companyLogoUrl = require(`../../../assets/images/hon_logo_1.png`).default;
+    const companyLogoUrl = require(`../../../assets/images/hon_logo_1.png`);
     const useAppContext = useContext(AppContext);
     const history = useHistory();
 

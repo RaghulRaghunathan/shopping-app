@@ -88,7 +88,7 @@ const Footer = () => {
             </Col>
         </Row>
         <Row className="logo m-0">
-            <img src={require('../../../assets/images/hon_logo_1.png').default} alt="HON" 
+            <img src={require('../../../assets/images/hon_logo_1.png')} alt="HON" 
             className="p-0"/>
         </Row>
         <Row className="copy-rights m-0">
@@ -173,7 +173,7 @@ const Footer = () => {
             </Row>
         </Col>
         <Row className="logo m-0">
-            <img src={require('../../../assets/images/hon_logo_1.png').default} alt="HON" 
+            <img src={require('../../../assets/images/hon_logo_1.png')} alt="HON" 
             className="p-0"/>
         </Row>
         <Row className="copy-rights m-0">

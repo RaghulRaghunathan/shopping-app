@@ -19,7 +19,7 @@ const ProductImage = (props) => {
         <Row className="m-0">
             <div className="main-image-container d-flex p-0">
                 <div className="prev-btn" onClick={() => handleSwitchImage("prev")}><i className="fa fa-angle-left" aria-hidden="true"></i></div>
-                <img src={require(`../../../../../assets/images/${activeProductInfo.id}-${activeImageId}.jpeg`).default} alt="Chair" className="main-img"/>
+                <img src={require(`../../../../../assets/images/${activeProductInfo.id}-${activeImageId}.jpeg`)} alt="Chair" className="main-img"/>
                 <div className="next-btn" onClick={() => handleSwitchImage("next")}><i className="fa fa-angle-right" aria-hidden="true"></i></div>
             </div>
         </Row>
@@ -27,7 +27,7 @@ const ProductImage = (props) => {
             <div className="img-items d-flex">
                 {[1,2,3,4].map(item => <img 
                 key={item}
-                src={require(`../../../../../assets/images/${activeProductInfo.id}-${item}.jpeg`).default} 
+                src={require(`../../../../../assets/images/${activeProductInfo.id}-${item}.jpeg`)} 
                 alt="Chair" className={`img-item ${activeImageId === item && "active"}`}
                 onClick={() => setActiveImageId(item)}
                 />)}
